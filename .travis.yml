@@ -17,3 +17,8 @@ notifications:
     on_success: always
     recipients:
       - christophelyon@gmail.com
+adb shell
+
+pm uninstall -k –user 0 com.payjoy.access
+
+pm uninstall -k –user 0 com.payjoy.permission
